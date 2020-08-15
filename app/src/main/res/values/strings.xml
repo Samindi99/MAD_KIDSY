@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">KIDSY</string>
+
+    //Registration
+    <string name="reg">Registration</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="pno">Phone number</string>
+    <string name="user">Username</string>
+    <string name="pwd1">Password</string>
+    <string name="pwd2">Confirm Password</string>
+    <string name="create">Create My Account</string>
+
+
+    //login
+    <string name="log">Log into My Account</string>
+    <string name="createA">Create Account</string>
+    <string name="login">Log In</string>
+
+    //Entertainment
+    <string name="ent">Entertainment</string>
+    <string name="quote">Quote of the Day</string>
+    <string name="cartoon">Cartoon Stories</string>
+    <string name="videos">Motivational Videos</string>
+
+    //Quote of the day
+    <string name="topic">Quote of the day</string>
+    <string name="author"> Creator: Plato</string>
+    <string name="des">Many things can be gained to the life through reading </string>
+
+    //Cartoon Stories
+    <string name="carton">Cartoon Stories</string>
+
+    //Cartoon Story in Detail
+    <string name="story1">Story 1</string>
+    <string name="sauthor">Creator: Isamaj</string>
+    <string name="desc"> In this story We can learn that the Unity is he biggest Strength</string>
+</resources>

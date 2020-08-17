@@ -4,80 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg10"
     tools:context=".Entertainment">
 
-    <TextView
-        android:id="@+id/topic3"
-        android:layout_width="233dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="128dp"
-        android:text="@string/ent"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/quote_btn"
-        android:layout_width="284dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="60dp"
-        android:text="@string/quote"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topic3" />
-
-    <Button
-        android:id="@+id/cartoon_btn"
-        android:layout_width="284dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="64dp"
-        android:text="@string/cartoon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quote_btn" />
-
-    <Button
-        android:id="@+id/video_btn"
-        android:layout_width="280dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="68dp"
-        android:text="@string/videos"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartoon_btn" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="50dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="264dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
-        app:layout_constraintStart_toEndOf="@+id/quote_btn"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_send" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="47dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@android:drawable/ic_menu_send" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="53dp"
         android:layout_height="46dp"
-        android:layout_marginTop="52dp"
         android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="242dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.125"
-        app:srcCompat="@android:drawable/ic_menu_send" />
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132">
+
+        <TextView
+            android:id="@+id/topic3"
+            android:layout_width="400dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/ent"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692">
+
+        <Button
+            android:id="@+id/quote_btn"
+            android:layout_width="308dp"
+            android:layout_height="85dp"
+            android:text="@string/quote"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="59dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/cartoon_btn"
+            android:layout_width="304dp"
+            android:layout_height="87dp"
+            android:text="@string/cartoon"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/video_btn"
+            android:layout_width="308dp"
+            android:layout_height="87dp"
+            android:text="@string/videos"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

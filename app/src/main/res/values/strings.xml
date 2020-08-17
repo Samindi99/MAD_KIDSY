@@ -11,7 +11,6 @@
     <string name="pwd2">Confirm Password</string>
     <string name="create">Create My Account</string>
 
-
     //login
     <string name="log">Log into My Account</string>
     <string name="createA">Create Account</string>
@@ -24,7 +23,7 @@
     <string name="videos">Motivational Videos</string>
 
     //Quote of the day
-    <string name="topic">Quote of the day</string>
+    <string name="topic">Quote of the Day</string>
     <string name="author"> Creator: Plato</string>
     <string name="des">Many things can be gained to the life through reading </string>
 

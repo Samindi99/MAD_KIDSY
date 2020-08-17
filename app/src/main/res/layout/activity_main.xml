@@ -4,17 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/topic1"
-        android:layout_width="171dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="204dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/reg"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,11 +29,15 @@
         android:id="@+id/name_tv"
         android:layout_width="135dp"
         android:layout_height="40dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/name"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/etname"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,10 +47,14 @@
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/email"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/etemail"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_tv" />
 
@@ -47,11 +62,15 @@
         android:id="@+id/phn_no_tv"
         android:layout_width="135dp"
         android:layout_height="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/pno"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/etphone"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_tv" />
 
@@ -59,11 +78,15 @@
         android:id="@+id/user_tv"
         android:layout_width="135dp"
         android:layout_height="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/user"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/etuser"
-        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phn_no_tv" />
 
@@ -71,22 +94,30 @@
         android:id="@+id/pwd_tv"
         android:layout_width="135dp"
         android:layout_height="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/pwd1"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_tv" />
 
     <TextView
         android:id="@+id/c_pwd_tv"
-        android:layout_width="151dp"
-        android:layout_height="40dp"
+        android:layout_width="193dp"
+        android:layout_height="62dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/pwd2"
-        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/etcpwd"
         app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +131,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/name_tv"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"/>
 
     <EditText
         android:id="@+id/etemail"
@@ -110,7 +144,10 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintBaseline_toBaselineOf="@+id/email_tv"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"/>
 
     <EditText
         android:id="@+id/etphone"
@@ -120,7 +157,10 @@
         android:ems="10"
         android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@+id/phn_no_tv"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"/>
 
     <EditText
         android:id="@+id/etuser"
@@ -130,7 +170,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/user_tv"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"/>
 
     <EditText
         android:id="@+id/etpwd"
@@ -140,27 +183,36 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBaseline_toBaselineOf="@+id/pwd_tv"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/create_btn"
-        android:layout_width="216dp"
-        android:layout_height="46dp"
+        android:layout_width="272dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#ffffff"
         android:text="@string/create"
-        android:textSize="18sp"
+
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <EditText
         android:id="@+id/etcpwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
         android:ems="10"
+        android:fontFamily="sans-serif-black"
         android:inputType="textPassword"
+        android:shadowColor="#ffffff"
+        android:textColor="#ffffff"
         app:layout_constraintBaseline_toBaselineOf="@+id/c_pwd_tv"
         app:layout_constraintEnd_toEndOf="parent" />
 
